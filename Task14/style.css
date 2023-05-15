@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.container div{
+    width: 40px;
+    height: 100px;
+    background-color: rgb(38, 183, 113);
+    margin-right: 30px;
+    animation-name: boxes;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: calc(0.2s*var(--i));
+    transform-origin: left bottom;
+}
+@keyframes boxes {
+    0%{
+      height: 100px;
+    }
+    50%{
+       height: 200px;
+    }
+    100%{
+       height: 300px;
+    }
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container2 div{
+    width: 40px;
+    height: 100px;
+    background-color: rgb(5, 5, 65);
+    margin-right: 30px;
+    animation-name: foxes;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: calc(0.2s*var(--i));
+    transform-origin: left bottom;
+}
+@keyframes foxes {
+    0%{
+      height: 100px;
+    }
+    50%{
+       height: 200px;
+    }
+    100%{
+       height: 300px;
+    }
+}

@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    margin-bottom: 60px;
+}
+body{
+    background-color: rgb(221, 221, 8);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.box1{
+width: 150px;
+height: 150px;
+background-color: rgb(13, 171, 171);
+margin-right: 50px;
+text-align: center;
+animation: move 3s infinite;
+animation-delay: 1s;
+}
+
+.box2{
+width: 150px;
+height: 150px;
+background-color: rgb(13, 171, 171);
+margin-right: 50px;
+animation: rotate 2s infinite;
+animation-delay: 1s;
+
+}
+
+.box3{
+width: 150px;
+height: 150px;
+background-color: rgb(13, 171, 171);
+animation: fell 3s infinite;
+}
+@keyframes move {
+    0%{
+        transform: rotateX(0deg);
+       }
+    100%{
+        transform: rotateX(360deg);
+       }
+        
+    
+}
+@keyframes rotate {
+    0%{
+        transform: rotateY(0deg);
+       }
+    100%{
+        transform: rotateY(360deg);
+       }
+}
+
+@keyframes fell {
+    0%{
+        transform: rotateZ(0deg);
+       }
+    100%{
+        transform: rotateZ(360deg);
+       }
+}

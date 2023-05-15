@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: green;
+    margin: 10px;
+    font-size: 40px;
+}
+#p{
+    font-weight: bold;
+    margin: 10px;
+    font-size: 20px;
+}
+div{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    align-items: baseline;
+}
+.p1{
+    animation: p1 0.5s linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.p2{
+    animation: p2 0.5s linear;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+.p3{
+    animation: p3 0.5s linear;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+.p4{
+    animation: p4 0.5s linear;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+.p5{
+    animation: p5 0.5s linear;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes p1 {
+    0%{
+        color: black;
+        font-size: 20px;
+    }
+    100%{
+        color:green;
+        font-size: 40px;
+    }
+}
+@keyframes p2 {
+    0%{
+        color: black;
+        font-size: 20px;
+    }
+    100%{
+        color:green;
+        font-size: 40px;
+    }
+}
+@keyframes p3 {
+    0%{
+        color: black;
+        font-size: 20px;
+    }
+    100%{
+        color:green;
+        font-size: 40px;
+    }
+}
+@keyframes p4 {
+    0%{
+        color: black;
+        font-size: 20px;
+    }
+    100%{
+        color:green;
+        font-size: 40px;
+    }
+}
+@keyframes p5 {
+    0%{
+        color: black;
+        font-size: 20px;
+    }
+    100%{
+        color:green;
+        font-size: 40px;
+    }
+}

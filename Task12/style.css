@@ -1,0 +1,23 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    animation: square 8s linear;
+}
+@keyframes square {
+    0%{
+      background-color: green;
+    }
+    25%{
+      background-color: yellow;
+    }
+    50%{
+       background-color: red;
+    }
+    75%{
+       background-color: black;
+    }
+    100%{
+        background-color: aqua;
+    }
+}

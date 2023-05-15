@@ -1,0 +1,55 @@
+p{
+    color: green;
+    text-align: center;
+    font-size: 25px;
+}
+.text2{
+    margin-bottom: 70px;
+}
+
+.text1{
+    margin-bottom: 100px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.box1{
+    
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: box1 4s infinite;
+}
+.box2{
+    
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: box2 4s infinite;
+}
+.box3{
+    
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: box3 4s infinite;
+}
+@keyframes box1 {
+    50%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes box2 {
+    50%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes box3 {
+    50%{
+        transform: rotate(360deg);
+    }
+}

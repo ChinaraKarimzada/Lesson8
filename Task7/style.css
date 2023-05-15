@@ -1,0 +1,14 @@
+.box {
+    width: 200px;
+    border: 2px solid black;
+    color: forestgreen;
+    text-align: center;
+    padding: 20px;
+    animation-duration: 2s;
+}
+
+.box:hover {
+    border: 2px solid green;
+    transform: skewX(10deg);
+
+}
